@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+      font-size: 12px;
+  }
+  a {
+      font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 2vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+  }

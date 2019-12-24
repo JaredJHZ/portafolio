@@ -1,0 +1,43 @@
+
+@keyframes left-to-right {
+    0%   {left: -15%;}
+    100% {left: 0%;}
+}
+
+.biography {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 30px;
+}
+
+.screen {
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.screen h1 {
+    text-align: center;
+}
+
+.izquierda {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 12px;
+        text-align: center;
+        width: 90%;
+    }
+}

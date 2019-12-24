@@ -1,0 +1,16 @@
+.abilities {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.abilities ul {
+    padding: 0 !important;
+}
+
+.abilities ul li {
+    margin: 10px;
+    text-align: justify;
+}
